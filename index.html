@@ -1,53 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>6 Meses Juntos 💛</title>
-    <style>
-        body {
-            background: linear-gradient(135deg, #ffe6f0, #fff5cc);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+<meta charset="UTF-8">
+<title>5 Meses Juntos 💛</title>
 
-        .carta {
-            background: white;
-            padding: 30px;
-            border-radius: 20px;
-            max-width: 600px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            overflow-y: auto;
-        }
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    overflow: hidden;
+}
 
-        h1 {
-            text-align: center;
-            color: #ff6699;
-        }
+/* Corazones animados */
+.corazon {
+    position: absolute;
+    color: rgba(255,255,255,0.6);
+    font-size: 20px;
+    animation: flotar 6s linear infinite;
+}
 
-        p {
-            color: #444;
-            line-height: 1.6;
-            text-align: justify;
-        }
+@keyframes flotar {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-10vh);
+        opacity: 0;
+    }
+}
 
-        .firma {
-            margin-top: 20px;
-            text-align: right;
-            font-weight: bold;
-            color: #ff6699;
-        }
-    </style>
+/* Carta */
+.carta {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 25px;
+    max-width: 650px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    animation: aparecer 2s ease;
+    backdrop-filter: blur(10px);
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+h1 {
+    text-align: center;
+    color: #ff4d6d;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #444;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.firma {
+    margin-top: 25px;
+    text-align: right;
+    font-weight: bold;
+    color: #ff4d6d;
+    font-size: 18px;
+}
+</style>
 </head>
+
 <body>
 
-<div class="carta">
-    <h1>6 Meses Juntos 💛</h1>
+<!-- Corazones -->
+<script>
+for(let i = 0; i < 20; i++){
+    let corazon = document.createElement("div");
+    corazon.className = "corazon";
+    corazon.innerHTML = "💛";
+    corazon.style.left = Math.random() * 100 + "vw";
+    corazon.style.animationDuration = (Math.random() * 3 + 3) + "s";
+    document.body.appendChild(corazon);
+}
+</script>
 
-    <p>Hoy cumplimos 6 meses juntos, y no puedo evitar detenerme un momento a pensar en todo lo que hemos construido en este tiempo. Tal vez para algunos no sea mucho, pero para mí ha sido suficiente para darme cuenta de lo especial que eres y de lo feliz que me haces.</p>
+<div class="carta">
+    <h1>5 Meses Juntos 💛</h1>
+
+    <p>Hoy cumplimos 5 meses juntos, y no puedo evitar detenerme un momento a pensar en todo lo que hemos construido en este tiempo. Tal vez para algunos no sea mucho, pero para mí ha sido suficiente para darme cuenta de lo especial que eres y de lo feliz que me haces.</p>
 
     <p>Desde que llegaste a mi vida, muchas cosas cambiaron. Me enseñaste lo bonito que es amar de verdad, sentir tranquilidad con alguien, reír sin razón y encontrar en una persona un lugar seguro. Contigo he aprendido que el amor no es solo momentos perfectos, sino también saber quedarnos, entendernos y apoyarnos incluso cuando las cosas no son tan fáciles.</p>
 
@@ -57,14 +110,16 @@
 
     <p>Te amo muchísimo, más de lo que a veces logro expresar con palabras. Me haces sentir feliz, tranquila, querida y muy afortunada de tenerte a mi lado. Eres una persona increíble, y de verdad agradezco a la vida por haberte puesto en mi camino.</p>
 
-    <p>Sueño con seguir compartiendo contigo más momentos, más risas, más aprendizajes… seguir construyendo recuerdos y una historia cada vez más bonita. Estos 6 meses han sido solo el comienzo de algo que quiero que dure mucho tiempo.</p>
+    <p>Sueño con seguir compartiendo contigo más momentos, más risas, más aprendizajes… seguir construyendo recuerdos y una historia cada vez más bonita. Estos 5 meses han sido solo el comienzo de algo que quiero que dure mucho tiempo.</p>
 
     <p>Gracias por estar conmigo, por elegirme y por ser tú.</p>
 
     <div class="firma">
-        Con todo mi amor 💛
+        Con todo mi amor 💛<br>
+        Para mi lindo osito (Hernan)
     </div>
 </div>
 
 </body>
 </html>
+
