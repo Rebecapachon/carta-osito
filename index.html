@@ -2,18 +2,20 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>5 Meses Juntos 💛</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5 Meses Juntos 💕❤️</title>
 
 <style>
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Georgia', serif;
     background: linear-gradient(135deg, #ffdde1, #ee9ca7);
-    overflow: hidden;
+    overflow-x: hidden;
+    padding: 20px;
 }
 
 /* Corazones animados */
@@ -80,6 +82,22 @@ p {
     color: #ff4d6d;
     font-size: 18px;
 }
+    .imagen-final {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagen-final img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-final img:hover {
+    transform: scale(1.05);
+}
 </style>
 </head>
 
@@ -118,6 +136,9 @@ for(let i = 0; i < 20; i++){
         Con todo mi amor 💛<br>
         Para mi lindo osito (Hernan)
     </div>
+    <div class="imagen-final">
+    <img src="anime.webp" alt="Nosotros 💛">
+</div>
 </div>
 
 </body>
