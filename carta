@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>6 Meses Juntos 💛</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffe6f0, #fff5cc);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .carta {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 600px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow-y: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff6699;
+        }
+
+        p {
+            color: #444;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .firma {
+            margin-top: 20px;
+            text-align: right;
+            font-weight: bold;
+            color: #ff6699;
+        }
+    </style>
+</head>
+<body>
+
+<div class="carta">
+    <h1>6 Meses Juntos 💛</h1>
+
+    <p>Hoy cumplimos 6 meses juntos, y no puedo evitar detenerme un momento a pensar en todo lo que hemos construido en este tiempo. Tal vez para algunos no sea mucho, pero para mí ha sido suficiente para darme cuenta de lo especial que eres y de lo feliz que me haces.</p>
+
+    <p>Desde que llegaste a mi vida, muchas cosas cambiaron. Me enseñaste lo bonito que es amar de verdad, sentir tranquilidad con alguien, reír sin razón y encontrar en una persona un lugar seguro. Contigo he aprendido que el amor no es solo momentos perfectos, sino también saber quedarnos, entendernos y apoyarnos incluso cuando las cosas no son tan fáciles.</p>
+
+    <p>Gracias por cada detalle, por cada palabra bonita, por cada abrazo que me hace sentir que todo está bien. Gracias por tu paciencia conmigo, por escucharme, por cuidarme y por demostrarme con hechos lo importante que soy para ti. Valoro mucho cada cosa que haces por nosotros.</p>
+
+    <p>También quiero pedirte perdón por esos momentos en los que hemos discutido o en los que tal vez no he sabido manejar bien las cosas. Aun así, algo que tengo muy claro es que siempre quiero elegirnos, seguir mejorando y hacer todo lo posible para que lo nuestro funcione y crezca cada día más.</p>
+
+    <p>Te amo muchísimo, más de lo que a veces logro expresar con palabras. Me haces sentir feliz, tranquila, querida y muy afortunada de tenerte a mi lado. Eres una persona increíble, y de verdad agradezco a la vida por haberte puesto en mi camino.</p>
+
+    <p>Sueño con seguir compartiendo contigo más momentos, más risas, más aprendizajes… seguir construyendo recuerdos y una historia cada vez más bonita. Estos 6 meses han sido solo el comienzo de algo que quiero que dure mucho tiempo.</p>
+
+    <p>Gracias por estar conmigo, por elegirme y por ser tú.</p>
+
+    <div class="firma">
+        Con todo mi amor 💛
+    </div>
+</div>
+
+</body>
+</html>
